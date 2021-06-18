@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>TutorBird</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <section id="header">
+    <div class="header container standard">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="./index.html"><h1><span>T</span>utor<span>B</span>ird</h1></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./information.html">Information</a></li>
+            <li><a href="./FAQ.html">FAQ</a></li>
+            <li><a href="./partners.html">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Header Section -->
+
+ <!-- Partner Section -->
+ <section id="partner">
+    <div class="partner container">
+      <div><h1 class="section-title">P<span>a</span>rtners</h1></div>
+      <div><h2>Follow our partners and get a chance to intern at their headquarter!</h2></div>
+      <div class="partner-items">
+        <div class="partner-item">
+          <div class="icon"><img src="img/university-of-toronto.png"/></div>
+          <h2>University of Toronto</h2>
+          <button type="button" class="followBtn" value="University of Toronto">Follow</button>
+          <button type="button" class="unfollowBtn" value="University of Toronto">Unfollow</button>
+        </div>
+        <div class="partner-item">
+          <div class="icon"><img src="img/prepr.png"/></div>
+          <h2>Prepr</h2>
+          <button type="button" class="followBtn" value="Prepr">Follow</button>
+          <button type="button" class="unfollowBtn" value="Prepr">Unfollow</button>
+        </div>
+        <div class="partner-item">
+          <div class="icon"><img src="img/google.png"/></div> 
+          <h2>Google</h2> 
+          <button type="button" class="followBtn" value="Google">Follow</button>
+          <button type="button" class="unfollowBtn" value="Google">Unfollow</button>
+        </div>
+        <div class="partner-item">
+          <div class="icon"><img src="img/waze.png"/></div>
+          <h2>Waze</h2>
+          <button type="button" class="followBtn" value="Waze">Follow</button>
+          <button type="button" class="unfollowBtn" value="Waze">Unfollow</button>
+        </div>
+        <div class="partner-item">
+          <div class="icon"><img src="img/airbnb.png"/></div>
+          <h2>Airbnb</h2>
+          <button type="button" class="followBtn" value="Airbnb">Follow</button>
+          <button type="button" class="unfollowBtn" value="Airbnb">Unfollow</button>
+        </div>
+      </div>
+      <div class="follow-list">
+        <h2>Follow list:</h2>
+        <ul id="followings">
+        </ul>
+      </div>
+      
+    </div>
+    
+  </section>
+  <!-- Partner Section -->
+
+  <script src="./js/api.js"></script>
+  <script src="./js/controller.js"></script>
+</body>
+</html>
