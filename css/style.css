@@ -161,7 +161,7 @@ p {
 
 /* Animation Stylings */
 #animation {
-	background-image: url(./img/study.jpg);
+	background-image: url(../img/study.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
